@@ -41,25 +41,24 @@ function generatePassword() {
     if (addUppercase) {
       characters.upperCase = true;
       console.log(characters.upperCase);
-    } 
+    }
   var addLowercase = window.confirm("Add Lowercase letters to your password?");
     if (addLowercase) {
       characters.lowerCase = true;
       console.log(characters.lowerCase);
-    } 
+    }
   var addNumbers = window.confirm("Add numeric characters to your password?")
     if (addNumbers) {
       characters.numbers = true;
       console.log(characters.numbers);
-    } 
+    }
   var addSpecialChars = window.confirm("Add Special characters (i.e. !@#%^) to your password?");
     if (addSpecialChars) {
       characters.specialChars = true;
       console.log(characters.specialChars);
-    } 
+    }
 
   // generate the final password based on the boolean values
-
   var PasswordStitch = [
     ...characters.lowerCase ? chars.lowerCase : [],
     ...characters.upperCase ? chars.upperCase : [],
@@ -83,7 +82,12 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-  
+
+  //reset boolean values when generator is re-ran in the same session
+  characters.lowerCase = false;
+  characters.upperCase = false;
+  characters.numbers = false;
+  characters.specialChars = false;
 
 }
 
