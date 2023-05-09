@@ -14,25 +14,25 @@ N/A
 The password generator allows the user to create a random password for any application that requires a secure password.
 
 First, the user will be brought to this page
-![image](Develop/images/01-passcode.png)
+![image](images/01-passcode.png)
 
 Once you click "Generate Password" a pop-up will appear prompting for the length of the password
-![image](Develop/images/02-passcode.png)
+![image](images/02-passcode.png)
 
 When the length is given, then another pop-up will appear confirming to add uppercase letters
-![image](Develop/images/03-passcode.png)
+![image](images/03-passcode.png)
 
 Pop-up confirming to add lowercase letters.
-![image](Develop/images/04-passcode.png)
+![image](images/04-passcode.png)
 
  Pop-up confirming to add numeric values.
-![image](Develop/images/05-passcode.png)
+![image](images/05-passcode.png)
 
 Pop-up confirming to add special characters.
-![image](Develop/images/06-passcode.png)
+![image](images/06-passcode.png)
 
 After all confirms and prompts are answered we get a randomly generated password based off of the configurations that were input by the user
-![image](Develop/images/07-passcode.png)
+![image](images/07-passcode.png)
 
 # References
 
